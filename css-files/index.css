@@ -1,0 +1,57 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifS; 
+}
+
+h3,h1{
+    color: red !important;
+    text-decoration: red underline;
+}
+/* h3{
+    color: black;
+}
+h3{
+    color: rgb(77, 207, 90);
+} cascading rule */
+#login:hover{
+    background-color: rgb(133, 133, 76);
+}
+#signup:hover{
+    background-color: rgb(180, 98, 157);
+}
+
+.upvote{
+    color: aliceblue;
+    background-color: dimgray;
+}
+.upvote:hover{
+    background-color: black;
+} 
+h3,h1:hover{
+    text-decoration: none;
+}
+.upvote:active{
+    color: pink;
+}
+p:active{
+    background-color:yellow ;
+}
+input[type="radio"]:checked+label
+{
+    background-color: aqua;
+}
+div:nth-of-type(2n){
+    background-color: cadetblue;
+}
+h1::first-letter{
+    color: aquamarine;
+}
+p::first-line{
+    color: purple;
+}
+/* if i created each paragraph with each element then first line 
+will select all but if we make multiple paragraph line with 
+single p tag then this will work */
+
+*::selection{
+    background-color: rgb(227, 241, 135);
+}
