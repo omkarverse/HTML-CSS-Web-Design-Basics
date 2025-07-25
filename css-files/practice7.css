@@ -1,0 +1,40 @@
+/* #outerbox{
+    height: 700px;
+    width: 70px;
+    border: 2px solid black;
+}
+.red{
+    border: 2px red groove;
+}
+.yellow{
+    border: 2px rgb(242, 236, 81) groove;
+}
+.green{
+    border: 2px rgb(95, 151, 54) groove;
+} */
+ /* Outer container box */
+#outerbox {
+height: 200px;
+width: 70PX;
+border: 2px solid black;
+background-color: rgb(35, 31, 31);
+}
+
+.TRAFFIC{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 9px;
+    border-radius: 25px;
+    
+}
+
+#yellow{
+    background-color: rgb(238, 238, 31);
+}
+#green{
+    background-color: rgb(147, 234, 17);
+}
+#ultrared{
+    background-color: rgb(189, 28, 61);S
+}
