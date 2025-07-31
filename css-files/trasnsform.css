@@ -1,0 +1,38 @@
+div{
+    border: black 2px groove;
+    height: 200px;
+    width: 200px;
+}
+#first{
+    background-color: red;
+    transform: rotate(20deg);
+}
+/* here the rotation is on clockwise direction */
+#second{
+    background-color: aquamarine;
+    transform: rotate(-20deg);        
+}
+/* here the rotation is on anticlockwise direction */
+#third{
+    background-color: brown;
+    transform: scale(0.5);
+}
+#fourth{
+    background-color: indigo;
+    /* transform: scaleX(0.7)  or  transform: scaleY(0.7) anything can be used*/
+    transform: scale(1.2,0.8);
+}
+#five{
+    background-color: rgb(73, 134, 30);
+    transform: translate(50px,50px);
+    /* just move the div in x and y direction */
+
+}
+#six{
+    background-color: purple;
+    transform: skew(30deg);
+}
+section{
+    margin: 20px;
+    padding: 20px;
+}

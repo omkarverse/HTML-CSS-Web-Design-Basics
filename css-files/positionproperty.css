@@ -1,0 +1,38 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static {
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+/* it is pre default set and it moves accordind to parent and web page */
+#relative {
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+/* it moves according to its current position */
+#absolute { 
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+/* it moves according to its parent offset */
+#fixed {
+    background-color: yellow;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+/* this is fixed even if you scroll it wont move */
