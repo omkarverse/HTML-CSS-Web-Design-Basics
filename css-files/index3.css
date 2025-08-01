@@ -1,0 +1,26 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(131, 193, 80);
+    
+    border-width: 5px;
+    border-color: rgb(133, 33, 33);
+    border-style: solid;
+
+    border-radius: 15px;
+}
+h1{
+    width: 700px;
+    border-width: 3px;
+    border-color: rgb(111, 224, 111);
+    border-style:groove;
+}
+.topright {
+    width:35%;
+    border:brown groove 4px ;
+    border-top-right-radius: 15px;
+}
+button{
+    border: 3px groove rgb(185, 109, 34);
+    background-color: yellowgreen;
+}
