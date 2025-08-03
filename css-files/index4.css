@@ -1,0 +1,12 @@
+div{
+    border: black 5px groove;
+    background-color: rgb(235, 97, 97);
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    /* padding-top:5px ;
+    padding-left:15px ;   this is not the way to do padding*/
+    padding:5px 25px 0px;
+
+    margin: 25px;
+}
