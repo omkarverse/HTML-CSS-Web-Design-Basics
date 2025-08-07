@@ -1,0 +1,36 @@
+div{
+    height: 400px;
+    width: 200px;
+    border: black solid 2px;
+    color: palevioletred;
+    background-color: yellow;
+
+    /* animation-name: animation;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 7; 
+     iterate means how many times we want the animation to be happen 
+    animation-direction: alternate; */
+
+    animation: nomination 3s ease-in 1s infinite alternate ;
+    /* shorthand */
+}
+
+
+@keyframes animation{
+from{font-size: xx-large; color: aliceblue;}
+to{font-size: medium; color: pink;}
+}
+
+@keyframes nomination {
+    0%{
+        background-color: black;
+    }
+    50%{
+        background-color: brown;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
