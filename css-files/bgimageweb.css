@@ -1,0 +1,10 @@
+div{
+    height: 600px;
+    width: 1300px;
+    border: black groove 3px;
+    color: antiquewhite;
+    background-image: url(circles-rings-colorful-hypnosis-4000x2800-7723.jpg);
+    /* background-size:auto; it stretches the image*/
+    /* background-size: contain; it add multiple same image side by side */
+    background-size: cover;
+}
