@@ -1,0 +1,40 @@
+#container {
+    border: 2px black solid;
+    padding: 5px;
+    height: 500px;
+    width: 1000px;
+    background-color: azure;
+    margin-top: 10px;
+    flex-direction: row;
+    display: flex;
+    /* flex restrict the element to not overlap 
+    or cross the boundry even if their size 
+    is given is bigger than a box */
+    justify-content: space-evenly;
+    /* its just alignment like it has start, end, centre ,around, evenly, inbetween */
+    flex-wrap: wrap;
+    /* it let the element to occupy the space in nexxt line when the given line is full
+    it has nowrap, reverse rap */
+    align-items: baseline;
+    align-content:baseline;
+    /* align the content in the div, main focus is on the alignment of text centre, baseline*/
+#purple{
+    align-self: center;
+    flex-basis: 50px
+    /* the direction is in the row so the channge will be in the width */
+    /* flex-grow: 3; */
+    /* multiplies the size  */
+}
+#orange{
+    flex-shrink: 1;
+}
+}
+h1{
+    text-align: center;
+}
+#container div {
+    height: 50px;
+    width: 50px;
+    color: wheat;
+    text-align: center;
+}
