@@ -1,0 +1,24 @@
+.cards1, .cards2{
+    border: 2px solid black;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+
+}
+h2,h3{
+    text-align: center;
+    color: chocolate;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:375px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
